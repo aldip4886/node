@@ -6,11 +6,25 @@
   "name": "node",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldip4886/node.git"
+  },
+  "keywords": [
+    "example_heroku"
+  ],
+  "engines": {
+    "node": "v16.17.0"
+  },
+  "bugs": {
+    "url": "https://github.com/aldip4886/node/issues"
+  },
+  "homepage": "https://github.com/aldip4886/node#readme",
   "description": ""
 }
