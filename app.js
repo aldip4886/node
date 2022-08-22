@@ -1,6 +1,6 @@
 const http = require('http')
 const fs = require('fs')
-const port = 3000
+const port = process.env.port || 5000;
 
 
 // you will need to install via 'npm install jsonwebtoken' or in your package.json
